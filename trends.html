@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Покупай - Продавай — Тренды</title>
+
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./assets/js/vendor/jquery.magnific-popup.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__mobile">
+        <div id="menu-btn" class="header__menu-btn"></div>
+        <a href="/" class="header__logo header__logo--mobile">
+          <img src="./assets/images/logo.svg" alt="" />
+        </a>
+        <div id="options-btn" class="header__options-btn"></div>
+        <div id="mobile-nav" class="mobile-nav">
+          <a href="orders.html" class="mobile-nav__item">Заказы</a>
+          <a href="portal.html" class="mobile-nav__item">Торговый портал</a>
+          <a href="trends.html" class="mobile-nav__item mobile-nav__item--active">Тренды</a>
+        </div>
+        <div id="options-nav" class="options-nav">
+          <span class="options-nav__title">Small</span>
+          <a href="#" class="options-nav__item">Моя страница</a>
+          <a href="#" class="options-nav__item">Настройки профиля</a>
+          <a href="#" class="options-nav__item">На счету: 7 800 руб.</a>
+          <a href="#" class="options-nav__item">Мои заказы</a>
+          <a href="#" class="options-nav__item">Мои предложения</a>
+          <a href="#" class="options-nav__item">Магазин</a>
+          <a href="#" class="options-nav__item">Личных сообщений нет</a>
+          <a href="#" class="options-nav__item">Администрирование</a>
+          <a href="#" class="options-nav__item">Выход</a>
+          <a href="#" class="options-nav__item">SMS-переписка</a>
+        </div>
+      </div>
+      <div class="header__desktop">
+        <a href="/" class="header__logo header__logo--desktop">
+          <img src="./assets/images/logo.svg" alt="" />
+        </a>
+        <div class="header__links">
+          <a href="#" id="desktop-options-btn" class="header__link">Small</a>
+          <a href="#" class="header__link">Помощь</a>
+          <a href="tel:+7 (999) 123-45-67" class="header__link">+7 (999) 123-45-67</a>
+        </div>
+        <div class="desktop-nav">
+          <a href="orders.html" class="desktop-nav__item">Заказы</a>
+          <a href="portal.html" class="desktop-nav__item">Торговый портал</a>
+          <a href="trends.html" class="desktop-nav__item desktop-nav__item--active">Тренды</a>
+        </div>
+      </div>
+      <div id="desktop-options-nav" class="desktop-options-nav">
+        <a href="#" class="options-nav__item">Моя страница</a>
+        <a href="#" class="options-nav__item">Настройки профиля</a>
+        <a href="#" class="options-nav__item">На счету: 7 800 руб.</a>
+        <a href="#" class="options-nav__item">Мои заказы</a>
+        <a href="#" class="options-nav__item">Мои предложения</a>
+        <a href="#" class="options-nav__item">Магазин</a>
+        <a href="#" class="options-nav__item">Личных сообщений нет</a>
+        <a href="#" class="options-nav__item">Администрирование</a>
+        <a href="#" class="options-nav__item">Выход</a>
+        <a href="#" class="options-nav__item">SMS-переписка</a>
+      </div>
+    </header>
+
+    <div class="page-header container">
+      <h1 class="title page-header__title">Тренды</h1>
+      <p class="text page-header__text">Динамика диапазона цен на товар</p>
+      <div class="raindrops page-header__raindrops"></div>
+      <div class="page-header__breadcrumbs">
+        <span class="page-header__breadcrumb">Тренды</span>
+        <a href="#" class="page-header__breadcrumb">Продукты питания</a>
+      </div>
+    </div>
+
+    <main class="page-wrap container">
+      <aside class="page-menu">
+        <div class="page-search">
+          <h3 class="page-search__title">Параметры поиска</h3>
+        </div>
+        <h3 class="page-menu__title">Категории</h3>
+        <div class="page-menu__nav">
+          <a href="#" class="page-menu__item">Крупы</a>
+          <a href="#" class="page-menu__item">Мясо</a>
+          <a href="#" class="page-menu__item">Рыба</a>
+          <a href="#" class="page-menu__item">Морепродукты</a>
+          <a href="#" class="page-menu__item">Фрукты</a>
+          <a href="#" class="page-menu__item">Овощи</a>
+          <a href="#" class="page-menu__item">Зелень</a>
+          <a href="#" class="page-menu__item">Ягоды</a>
+          <a href="#" class="page-menu__item">Грибы</a>
+          <a href="#" class="page-menu__item">Молочные продукты</a>
+        </div>
+      </aside>
+
+      <section class="trends">
+        <div class="trends__content">
+          <h2 class="title trends__title">Продукты питания</h2>
+          <h3 class="trends__subtitle">Яблоки</h3>
+          <img class="trends__chart" src="./assets/images/chart.png" alt="" />
+          <a href="#" class="trends__download">скачать график</a>
+          <p class="text trends__text">
+            <span>
+              По данным нашего портала, цены в на плодоовощную продукцию за период с 12 по 18 февраля увеличились в среднем на 1,2% (после роста на
+              1,6% за период с 5 по 11 февраля). В том числе цена на белокочанную капусту выросла на 2,6%, бананы – на 2,2%, помидоры – на 2%, морковь
+              – на 1,8%, столовую свеклу – на 1,4%, огурцы – на 1%, яблоки – на 0,5%, репчатый лук – на 0,4%. В то же время снизились цены на
+              картофель – на 0,1%.
+            </span>
+            <span>
+              За предыдущий отчетный период, с 5 по 11 февраля, капуста подорожала на 2,4%, свекла – на 1,1%, а лук – подешевел на 0,2%. Цена на
+              огурцы неделей ранее выросла в среднем на 2,6%, на помидоры – на 2,3%, морковь – на 1,9%, яблоки – на 0,7%, бананы – на 2,4%. Картофель
+              за минувший отчетный период подешевел на 0,06%.
+            </span>
+            <span>
+              Рост цен на гречку в России за неделю с 12 по 18 февраля ускорился до 0,47% с 0,26% неделей ранее, яйца подорожали на 0,18% после
+              снижения на прошлой неделе, замедлился рост цен на сахар – до 0,36% с 0,54%, стоимость подсолнечного масла незначительно снизилась,
+              сообщает Росстат.
+            </span>
+            <span>
+              Подорожали в пределах 1% молоко, сливочное масло, сметана, творог, сыр, вермишель, чай, печенье, шоколадные конфеты. В пределах 0,5%
+              подорожали рыба, хлеб, соль, рис, макаронные изделия из пшеничной муки первого сорта. В то же время пшено, мука пшеничная, куриное мясо
+              и свинина снизились в цене.
+            </span>
+            <span>
+              Говядина (кроме бескостного мяса) подорожала на 0,34%, баранина – на 0,36%, сосиски, сардельки выросли в цене на 0,56%, стоимость
+              вареной и копченой колбасы выросла в пределах 1%.
+            </span>
+          </p>
+        </div>
+        <div class="trends__ads">
+          <div class="trends__ad trends__ad--border trends__ad--img">
+            <span>Получайте максимум от вашей логистики</span>
+            <span>OOO Транс Марин</span>
+          </div>
+          <div class="trends__ad">
+            <span>Реклама</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <img class="footer__logo" src="./assets/images/logo.svg" alt="" />
+        <a href="tel:+7 (999) 123-45-67" class="footer__link">+7 (999) 123-45-67</a>
+      </div>
+    </footer>
+  </body>
+</html>

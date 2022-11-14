@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Покупай - Продавай — Торговый портал</title>
+
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./assets/js/vendor/jquery.magnific-popup.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__mobile">
+        <div id="menu-btn" class="header__menu-btn"></div>
+        <a href="/" class="header__logo header__logo--mobile">
+          <img src="./assets/images/logo.svg" alt="" />
+        </a>
+        <div id="options-btn" class="header__options-btn"></div>
+        <div id="mobile-nav" class="mobile-nav">
+          <a href="orders.html" class="mobile-nav__item">Заказы</a>
+          <a href="portal.html" class="mobile-nav__item mobile-nav__item--active">Торговый портал</a>
+          <a href="trends.html" class="mobile-nav__item">Тренды</a>
+        </div>
+        <div id="options-nav" class="options-nav">
+          <span class="options-nav__title">Small</span>
+          <a href="#" class="options-nav__item">Моя страница</a>
+          <a href="#" class="options-nav__item">Настройки профиля</a>
+          <a href="#" class="options-nav__item">На счету: 7 800 руб.</a>
+          <a href="#" class="options-nav__item">Мои заказы</a>
+          <a href="#" class="options-nav__item">Мои предложения</a>
+          <a href="#" class="options-nav__item">Магазин</a>
+          <a href="#" class="options-nav__item">Личных сообщений нет</a>
+          <a href="#" class="options-nav__item">Администрирование</a>
+          <a href="#" class="options-nav__item">Выход</a>
+          <a href="#" class="options-nav__item">SMS-переписка</a>
+        </div>
+      </div>
+      <div class="header__desktop">
+        <a href="/" class="header__logo header__logo--desktop">
+          <img src="./assets/images/logo.svg" alt="" />
+        </a>
+        <div class="header__links">
+          <a href="#" id="desktop-options-btn" class="header__link">Small</a>
+          <a href="#" class="header__link">Помощь</a>
+          <a href="tel:+7 (999) 123-45-67" class="header__link">+7 (999) 123-45-67</a>
+        </div>
+        <div class="desktop-nav">
+          <a href="orders.html" class="desktop-nav__item">Заказы</a>
+          <a href="portal.html" class="desktop-nav__item desktop-nav__item--active">Торговый портал</a>
+          <a href="trends.html" class="desktop-nav__item">Тренды</a>
+        </div>
+      </div>
+      <div id="desktop-options-nav" class="desktop-options-nav">
+        <a href="#" class="options-nav__item">Моя страница</a>
+        <a href="#" class="options-nav__item">Настройки профиля</a>
+        <a href="#" class="options-nav__item">На счету: 7 800 руб.</a>
+        <a href="#" class="options-nav__item">Мои заказы</a>
+        <a href="#" class="options-nav__item">Мои предложения</a>
+        <a href="#" class="options-nav__item">Магазин</a>
+        <a href="#" class="options-nav__item">Личных сообщений нет</a>
+        <a href="#" class="options-nav__item">Администрирование</a>
+        <a href="#" class="options-nav__item">Выход</a>
+        <a href="#" class="options-nav__item">SMS-переписка</a>
+      </div>
+    </header>
+
+    <div class="page-header container">
+      <h1 class="title page-header__title">Торговый портал</h1>
+      <p class="text page-header__text">Здесь можно ознакомится с предложениями поставщиков</p>
+      <div class="raindrops page-header__raindrops"></div>
+      <div class="page-header__breadcrumbs">
+        <span class="page-header__breadcrumb">Предложения поставщиков</span>
+        <a href="#" class="page-header__breadcrumb">Продукты питания</a>
+      </div>
+    </div>
+
+    <main class="page-wrap container">
+      <aside class="page-menu">
+        <div class="page-search">
+          <h3 class="page-search__title">Параметры поиска</h3>
+        </div>
+        <h3 class="page-menu__title">Категории</h3>
+        <div class="page-menu__nav">
+          <a href="#" class="page-menu__item">Крупы</a>
+          <a href="#" class="page-menu__item">Мясо</a>
+          <a href="#" class="page-menu__item">Рыба</a>
+          <a href="#" class="page-menu__item">Морепродукты</a>
+          <a href="#" class="page-menu__item">Фрукты</a>
+          <a href="#" class="page-menu__item">Овощи</a>
+          <a href="#" class="page-menu__item">Зелень</a>
+          <a href="#" class="page-menu__item">Ягоды</a>
+          <a href="#" class="page-menu__item">Грибы</a>
+          <a href="#" class="page-menu__item">Молочные продукты</a>
+        </div>
+      </aside>
+
+      <section class="portal">
+        <h2 class="title portal__title">Продукты питания</h2>
+        <div class="portal__buttons">
+          <a href="#" class="portal__button portal__button--active">Оставить предложение</a>
+          <a href="#" class="portal__button">Посмотреть Тренды</a>
+        </div>
+        <div class="portal__cards">
+          <div class="portal-card">
+            <div class="portal-card__raindrop">new</div>
+            <div class="portal-card__top">
+              <img src="./assets/images/portal/grecha.png" alt="" class="portal-card__img" />
+            </div>
+            <div class="portal-card__bottom">
+              <h3 class="portal-card__title">Гречневая крупа ядрица</h3>
+              <p class="portal-card__text">
+                Мешок 50 кг <br />
+                макс. /мес. - 1,5 тонн <br />
+                Отсрочка 30 дней <br />
+                Самовывоз
+              </p>
+              <div class="portal-card__price">
+                <span class="portal-card__price-value"><span>75 ₽</span> / кг </span>
+                <span class="portal-card__price-tip"> мин партия: 1 тонн </span>
+              </div>
+              <a href="#" class="portal-card__button">Встречное предложение </a>
+            </div>
+          </div>
+
+          <div class="portal-card">
+            <div class="portal-card__raindrop">new</div>
+            <div class="portal-card__top">
+              <img src="./assets/images/portal/apples.png" alt="" class="portal-card__img" />
+            </div>
+            <div class="portal-card__bottom">
+              <h3 class="portal-card__title">Яблоки</h3>
+              <p class="portal-card__text">
+                Мешок 50 кг <br />
+                макс. /мес. - 1,5 тонн <br />
+                Отсрочка 30 дней <br />
+                Самовывоз
+              </p>
+              <div class="portal-card__price">
+                <span class="portal-card__price-value"><span>75 ₽</span> / кг </span>
+                <span class="portal-card__price-tip"> мин партия: 1 тонн </span>
+              </div>
+              <a href="#" class="portal-card__button">Встречное предложение </a>
+            </div>
+          </div>
+
+          <div class="portal-card">
+            <div class="portal-card__raindrop">new</div>
+            <div class="portal-card__top">
+              <img src="./assets/images/portal/flour.png" alt="" class="portal-card__img" />
+            </div>
+            <div class="portal-card__bottom">
+              <h3 class="portal-card__title">Манная крупа</h3>
+              <p class="portal-card__text">
+                Мешок 50 кг <br />
+                макс. /мес. - 1,5 тонн <br />
+                Отсрочка 30 дней <br />
+                Самовывоз
+              </p>
+              <div class="portal-card__price">
+                <span class="portal-card__price-value"><span>75 ₽</span> / кг </span>
+                <span class="portal-card__price-tip"> мин партия: 1 тонн </span>
+              </div>
+              <a href="#" class="portal-card__button">Встречное предложение </a>
+            </div>
+          </div>
+
+          <div class="portal-card">
+            <div class="portal-card__raindrop">new</div>
+            <div class="portal-card__top">
+              <img src="./assets/images/portal/tomato.png" alt="" class="portal-card__img" />
+            </div>
+            <div class="portal-card__bottom">
+              <h3 class="portal-card__title">Помидоры</h3>
+              <p class="portal-card__text">
+                Мешок 50 кг <br />
+                макс. /мес. - 1,5 тонн <br />
+                Отсрочка 30 дней <br />
+                Самовывоз
+              </p>
+              <div class="portal-card__price">
+                <span class="portal-card__price-value"><span>75 ₽</span> / кг </span>
+                <span class="portal-card__price-tip"> мин партия: 1 тонн </span>
+              </div>
+              <a href="#" class="portal-card__button">Встречное предложение </a>
+            </div>
+          </div>
+        </div>
+        <div class="button portal__more-btn">Показать ещё</div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <img class="footer__logo" src="./assets/images/logo.svg" alt="" />
+        <a href="tel:+7 (999) 123-45-67" class="footer__link">+7 (999) 123-45-67</a>
+      </div>
+    </footer>
+  </body>
+</html>
